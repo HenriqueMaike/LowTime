@@ -1,0 +1,226 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*login*/
+
+header#login{
+    background-color: #000000;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    top: 0%;
+}
+
+header#login a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header#login p {
+    text-align: right;
+    color: #ffffff;
+    margin-top: 5px;
+    margin-right: 30px;
+}
+
+header#login div#escola p{
+    text-align: center;
+    color: #ffffff;
+    width: 50%;
+    margin-top: 5px;
+}
+/*menu*/
+
+.menu{
+    width: 100%;
+    height: 50px;
+    top: 30px;
+    background-color: #2f4f4f;
+    position: fixed;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    margin: 0px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul{
+    list-style: none;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    display: flex;
+    width: 100%;
+    height: 50px;
+}
+
+.menu ul li{
+    width: 100%;
+}
+
+.menu a:hover{
+    background-color: rgba(255, 255, 255, .2);
+    margin: 0px;
+    padding: 15px;
+    width: 100%;
+    height: 20px;
+ }
+header#logo div#lowtime{
+    width: 100%;
+    height: 100px;
+    background-color: #fffafa;
+    margin-top: 90px;
+    border-bottom: 2px solid #000000 ;
+}
+
+header#logo div#lowtime img{
+    margin-left: 100px;
+    position: static;
+
+}
+
+div#agendar p{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin-top: 60px;
+    position: relative;
+}
+
+div#agendar a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #2f4f4f;
+    margin: 10px;
+    padding: 10px;
+}
+
+/*conteudo*/
+
+article#conteudo{
+    margin-top: 0px;
+}
+
+div#home{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffafa;
+    margin-top: 0px;
+}
+
+div#sobre{
+    width: 100%;
+    height: 100vh;
+    background-color: #d3d3d3
+}
+
+div#servicos{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffafa;
+}
+
+div#dica{
+    width: 100%;
+    height: 100vh;
+    background-color: #fffafa;
+}
+
+article#conteudo h2{
+    margin: 0px 50px 0px 50px;
+    text-align: center;
+    padding-top: 80px;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+}
+
+article#conteudo h3{
+    margin: 30px 50px 0px 50px;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+}
+
+article#conteudo p{
+    margin: 20px 50px 0px 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+article#conteudo ul{
+    margin: 10px 50px 0px 50px;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+/* Banner javaScript */
+
+#banner #imagens {
+    width: 900px;
+    height: 400px;
+    border: solid 5px #2f4f4f;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#banner a {
+    border: solid 1px #333;
+    background-color: #F7F7F7;
+    padding: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+#banner a:hover {
+    border: solid 1px #333;
+    text-decoration: underline;
+    background-color: #333;
+    color: #ffffff;
+}
+
+#banner a.hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+#banner #botoes {
+    width: 900px;
+    text-align: right;
+}
+
+#banner #botoes {
+    padding-top: 5px;
+}
+
+/*rodape*/
+
+footer#rodape{
+    background-color: #808080;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer#rodape a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+footer#rodape p{
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+footer#rodape p#licenca{
+    color: #000000;
+    font-family: Arial, sans-serif;
+}
